@@ -10,6 +10,8 @@ export default function IndexPage() {
       });
     });
   }, []);
+
+  
   return (
     <>
     <section className="mx-14 mt-5 lg:mx-40">
