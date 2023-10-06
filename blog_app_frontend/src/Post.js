@@ -8,7 +8,7 @@ export default function Post({_id,title,summary,cover,content,createdAt,author})
 
     <div className="flex flex-col w-[300px] h-[385px] mb-12">
       <div className="w-[300px] h-[200px]">
-          <img className="w-full h-full object-cover rounded-lg" src={'http://localhost:4000/'+cover} alt=""/>
+       {cover &&   <img className="w-full h-full object-cover rounded-lg" src={'http://localhost:4000/post/'+_id} alt=""/>}
        
       </div>
       <div className="flex justify-between text-[10px] mt-4 mb-2">
